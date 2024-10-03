@@ -1,0 +1,29 @@
+{
+  "name": "sj-csye6225-lab4-gh-workflow",
+  "version": "1.0.0",
+  "description": "A simple Node.js CRUD API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PriteshNU/sj-csye6225-lab4-gh-workflow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PriteshNU/sj-csye6225-lab4-gh-workflow/issues"
+  },
+  "homepage": "https://github.com/PriteshNU/sj-csye6225-lab4-gh-workflow#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
