@@ -12,8 +12,8 @@ router.post('/users', (req, res) => {
     return res.status(400).json({ error: 'Name and email are required' });
   }
 
-  const newUser = { id: users.length + 1, name, email };
-  users.push(newUser);
+  // const newUser = { id: users.length + 1, name, email };
+  // users.push(newUser);
 
   res.status(201).json(newUser);
 });
